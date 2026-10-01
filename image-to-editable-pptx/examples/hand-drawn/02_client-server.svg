@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="55" viewBox="0 0 45 55">
+  <title>站务系统 · 客户端（无线终端）</title>
+  <defs>
+    <linearGradient id="cs-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0F7FD"/>
+      <stop offset="1" stop-color="#DCEAF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 显示器外壳 -->
+  <rect x="2" y="2" width="41" height="38" rx="4.5" fill="url(#cs-body)"
+        stroke="#2C5084" stroke-width="3.2"/>
+  <!-- 内屏 -->
+  <rect x="7.5" y="7.5" width="30" height="27" rx="2" fill="#FBFDFF"
+        stroke="#7CA9D6" stroke-width="1.4"/>
+
+  <!-- 无线信号（同心弧 + 信号源） -->
+  <path d="M 13 27 Q 22.5 14 32 27" fill="none" stroke="#3F86CE"
+        stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M 16 27 Q 22.5 18.5 29 27" fill="none" stroke="#3F86CE"
+        stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M 19 27 Q 22.5 23 26 27" fill="none" stroke="#3F86CE"
+        stroke-width="2.1" stroke-linecap="round"/>
+  <circle cx="22.5" cy="31" r="2.1" fill="#3F86CE"/>
+
+  <!-- 支脚与底座 -->
+  <rect x="19.5" y="40" width="6" height="7" fill="#4E7FB5"/>
+  <rect x="8" y="46.5" width="29" height="5.5" rx="2.2" fill="#3C6BA3"
+        stroke="#2C5084" stroke-width="1.6"/>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.0" height="34.0" viewBox="0 0 83.0 34.0">
+  <title>能力标签 · 无缝接入</title>
+  <rect x="0.9" y="0.9" width="81.2" height="32.2" rx="16.1"
+        fill="#FCFDFE" stroke="#95B6DB" stroke-width="1.8"/>
+  <text x="41.5" y="17" text-anchor="middle" dominant-baseline="central"
+        font-family="Microsoft YaHei, PingFang SC, Source Han Sans SC, sans-serif" font-size="15" font-weight="700" fill="#1B4F8A"
+        letter-spacing="0.5">无缝接入</text>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="69" viewBox="0 0 62 69">
+  <title>站务系统 · 客户端（PC 显示器）</title>
+  <defs>
+    <linearGradient id="cm-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFF6FD"/>
+      <stop offset="1" stop-color="#D8E8F8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 侧边接口 -->
+  <rect x="55.5" y="26" width="3.5" height="11" rx="1.4" fill="#224A80"/>
+  <!-- 显示器外壳 -->
+  <rect x="2" y="2" width="55" height="45" rx="5.5" fill="url(#cm-body)"
+        stroke="#224A80" stroke-width="3.6"/>
+  <!-- 内屏 -->
+  <rect x="8" y="8" width="43" height="33" rx="2" fill="#FFFFFF"
+        stroke="#A4C6E7" stroke-width="1.4"/>
+
+  <!-- 列表内容 -->
+  <g>
+    <rect x="11.5" y="12" width="13" height="3.6" rx="1" fill="#4A8FD0"/>
+    <rect x="26.5" y="12.4" width="21" height="2.8" rx="1" fill="#C3DAF0"/>
+  </g>
+  <g>
+    <rect x="11.5" y="17.6" width="13" height="3.6" rx="1" fill="#4A8FD0"/>
+    <rect x="26.5" y="18" width="21" height="2.8" rx="1" fill="#C3DAF0"/>
+  </g>
+  <g>
+    <rect x="11.5" y="23.2" width="13" height="4.4" rx="1" fill="#2E7BC4"/>
+    <rect x="26.5" y="23.8" width="14" height="3" rx="1" fill="#A9C9E8"/>
+  </g>
+  <rect x="11.5" y="30.4" width="16" height="3" rx="1" fill="#7FB4E0"/>
+  <rect x="11.5" y="35.4" width="10" height="3" rx="1" fill="#7FB4E0"/>
+
+  <!-- 右下角二维码图块 -->
+  <rect x="37.5" y="29.5" width="11.5" height="11.5" rx="1.6" fill="#7FB4E0"/>
+  <g fill="#FFFFFF">
+    <rect x="39.2" y="31.2" width="3.6" height="3.6" rx="0.6"/>
+    <rect x="44" y="31.2" width="3.4" height="1.6" rx="0.4"/>
+    <rect x="39.2" y="36.2" width="1.6" height="1.6" rx="0.4"/>
+    <rect x="42.2" y="36.2" width="3.3" height="1.6" rx="0.4"/>
+  </g>
+  <!-- 支脚与底座 -->
+  <rect x="22" y="47" width="15" height="6" fill="#5E8BBD"/>
+  <rect x="11" y="53" width="37" height="5.5" rx="2.2" fill="#3C6BA3"
+        stroke="#224A80" stroke-width="1.6"/>
+</svg>
