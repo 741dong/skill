@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104.0" height="38.0" viewBox="0 0 104.0 38.0">
-  <title>能力标签 · 功能适配</title>
-  <rect x="0.9" y="0.9" width="102.2" height="36.2" rx="18.1"
-        fill="#FCFDFE" stroke="#95B6DB" stroke-width="1.8"/>
-  <text x="52" y="19" text-anchor="middle" dominant-baseline="central"
-        font-family="Microsoft YaHei, PingFang SC, Source Han Sans SC, sans-serif" font-size="17" font-weight="700" fill="#1B4F8A"
-        letter-spacing="0.5">功能适配</text>
-</svg>
