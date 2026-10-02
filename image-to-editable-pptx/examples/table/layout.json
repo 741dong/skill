@@ -1,0 +1,11 @@
+{
+  "source": "slide-with-table.png",
+  "canvas": [1600, 900],
+  "slide": {"size": "16:9", "w_pt": 960, "h_pt": 540, "fit": "width_center"},
+  "background": "out/assets/bg-full.png",
+  "images": [],
+  "texts": [
+    {"text": "站务系统接口进展", "size_pt": 24, "bold": true, "color": [20, 40, 80],
+     "mode": "left", "ink_box": [141, 75, 459, 114]}
+  ]
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="156" viewBox="0 0 164 156">
+  <title>站务系统 · 云平台</title>
+  <defs>
+    <linearGradient id="cl-cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E1EEFB"/>
+    </linearGradient>
+    <linearGradient id="cl-side3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7CB4EA"/>
+      <stop offset="1" stop-color="#3E7CC1"/>
+    </linearGradient>
+    <linearGradient id="cl-top3" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#E8F3FD"/>
+      <stop offset="1" stop-color="#A9CFEF"/>
+    </linearGradient>
+    <linearGradient id="cl-side2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6BA5E0"/>
+      <stop offset="1" stop-color="#2F6BB0"/>
+    </linearGradient>
+    <linearGradient id="cl-top2" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#D8E9FA"/>
+      <stop offset="1" stop-color="#90C0E9"/>
+    </linearGradient>
+    <linearGradient id="cl-side1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5A99DA"/>
+      <stop offset="1" stop-color="#2A62A6"/>
+    </linearGradient>
+    <linearGradient id="cl-top1" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#CFE4F8"/>
+      <stop offset="1" stop-color="#7FB4E4"/>
+    </linearGradient>
+    <linearGradient id="cl-ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FBEE9" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8FBEE9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 平台外圈光晕 -->
+  <ellipse cx="82" cy="92" rx="74" ry="22" fill="none" stroke="#B6D5F1" stroke-width="1.2"/>
+
+  <!-- 底层圆盘（最大） -->
+  <path d="M 6 126 L 6 136 A 76 19 0 0 0 158 136 L 158 126 A 76 19 0 0 1 6 126 Z"
+        fill="url(#cl-side1)"/>
+  <ellipse cx="82" cy="126" rx="76" ry="19" fill="url(#cl-top1)"/>
+  <ellipse cx="82" cy="126" rx="62" ry="14" fill="none" stroke="#4E8CCB" stroke-width="1.1" opacity="0.75"/>
+
+  <!-- 中层圆盘 -->
+  <path d="M 18 108 L 18 120 A 64 16 0 0 0 146 120 L 146 108 A 64 16 0 0 1 18 108 Z"
+        fill="url(#cl-side2)"/>
+  <ellipse cx="82" cy="108" rx="64" ry="16" fill="url(#cl-top2)"/>
+  <ellipse cx="82" cy="108" rx="50" ry="11.5" fill="none" stroke="#3D7CBE" stroke-width="1.1" opacity="0.75"/>
+
+  <!-- 顶层圆盘 -->
+  <path d="M 34 88 L 34 97 A 48 12 0 0 0 130 97 L 130 88 A 48 12 0 0 1 34 88 Z"
+        fill="url(#cl-side3)"/>
+  <ellipse cx="82" cy="88" rx="48" ry="12" fill="url(#cl-top3)"/>
+  <ellipse cx="82" cy="88" rx="48" ry="12" fill="none" stroke="#34C08B" stroke-width="2.4"/>
+  <ellipse cx="82" cy="88" rx="30" ry="7.5" fill="#6FA8DF" opacity="0.45"/>
+
+  <!-- 云 -->
+  <path d="M 44.6 74 C 30.3 74 23.7 66 25.9 57 C 27.0 49 34.7 44 43.5 45
+           C 46.8 30 61.1 20 77.6 23 C 91.9 25 102.9 33 106.2 44
+           C 109.5 42 113.9 42 118.3 43 C 131.5 44 140.3 52 140.3 61
+           C 140.3 69 132.6 74 119.4 74 Z"
+        fill="url(#cl-cloud)" stroke="#4F98DF" stroke-width="5.5"
+        stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- 云内接入符号（穿出云底，接入平台） -->
+  <path d="M 73 96 L 91 96" stroke="#3D7CC0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 82 96 L 82 59" stroke="#3D7CC0" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="82" cy="46" r="12" fill="#FFFFFF" stroke="#3D7CC0" stroke-width="5"/>
+</svg>
