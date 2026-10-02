@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105.0" height="37.0" viewBox="0 0 105.0 37.0">
-  <title>能力标签 · 系统兼容</title>
-  <rect x="0.9" y="0.9" width="103.2" height="35.2" rx="17.6"
-        fill="#FCFDFE" stroke="#95B6DB" stroke-width="1.8"/>
-  <text x="52.5" y="18.5" text-anchor="middle" dominant-baseline="central"
-        font-family="Microsoft YaHei, PingFang SC, Source Han Sans SC, sans-serif" font-size="17" font-weight="700" fill="#1B4F8A"
-        letter-spacing="0.5">系统兼容</text>
-</svg>
